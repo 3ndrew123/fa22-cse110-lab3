@@ -1,0 +1,15 @@
+h3 { /* covers hsl and 1 absolute size*/
+    font-size: 30px;
+    color:hsl(202, 71%, 60%);
+}
+li { /*covers rgb color and font requirement*/
+    color:rgb(201, 211, 211);
+    font-family: "Sofia", sans-serif; 
+}
+/*#features { /*covers id selector */
+
+
+
+/*#testText { /*covers text color, decoration, and align*/
+
+
