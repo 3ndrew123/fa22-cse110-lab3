@@ -18,10 +18,60 @@ li { /*covers rgb color and font requirement*/
     font-size: 30px;
 }
 
-p:hover{
-    color: "blue";
+/*one pseudo class for hover for link */
+a:hover{
+    background-color: red;
+}
+/* another pseudo class for link*/
+a:active{
+    color:rgb(62, 173, 173)
 }
 
+/* box model 2 to cover short hand form*/
 .important2 {
-    
+    background-color: aqua;
+    margin:auto;
+    padding:auto;
+    border:2px groove rgb(0, 255, 187);
+    border-radius: 0%; 
+    position:static; /* second position*/
+}
+/*First display*/
+.display1 {
+    display:block;
+}
+/*Second Display*/
+.display2 {
+    display:none /*Disappeared like it was supposed to */
+}
+/*Responsiveness, light green backgorund at least 1080 height */
+@media only screen and (max-width: 2160px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+/*covers selector list*/
+h2, h1 {
+    color:rgb(235, 5, 93)
+}
+
+/*sizing*/
+strong {
+    height: auto;
+    width:auto;
+    max-width: auto;
+    min-width: auto;
+}
+
+/*combining 2 selectors*/
+h3.combine {
+    background-color:blueviolet
+}
+
+/*shorthand for margin*/
+.important3 {
+    margin:0 0 0 0;
+    padding:auto;
+    border:2px groove rgb(204, 0, 255);
 }
