@@ -4,11 +4,18 @@
     <meta charset="utf-8" > 
     <meta name="description" content="New Valorant Tracker">
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <title>Valorant Tracker First Iteration</title>
+    <style>
+        .important {
+            background-color: #567895; /* This covers the hex color, background color, and class selector */
+        }
+    </style>
   </head>
   <body>
     <header>
-        <h1> Meeting Name: Code Takeover </h1>
+        <h1 style="color:crimson"> Meeting Name: Code Takeover </h1>
         <p> Project Lead: Andrew Nguyen </p>
         <p> Meeting 100 </p>
     </header>
@@ -28,7 +35,7 @@
         <br>
 
         <b> REMINDER: </b>
-        <p>Before we get started, I just want to thank everyone <br>
+        <p id="testText">Before we get started, I just want to thank everyone <br>
             who was able to make the meeting. If you need to talk <br>
             to anybody, here is a list of people that attended: <br>
         </p>
@@ -39,7 +46,7 @@
             <li> Omen </li>
         </ul>
 
-        <div> 
+        <div class="important" > 
             <h3> IMPORTANT INFORMATION: </h3>
             <section>
                 <i> Agenda: Things to cover In Code Takeover </i>  
@@ -57,7 +64,7 @@
                     <li> Redesigning the Information layout </li>
                     <li> Shower Complaints </li>
                 </ol>
-                <b> New Tools and Features Added Recently </b>
+                <b id="features"> New Tools and Features Added Recently </b>
                 <ul>
                     <li> New Software for UI team </li>
                     <li> Headshot Percentage Tracker in Deathmatch </li>
