@@ -1,15 +1,27 @@
 h3 { /* covers hsl and 1 absolute size*/
-    font-size: 30px;
+    font-size: 1cm;
     color:hsl(202, 71%, 60%);
 }
 li { /*covers rgb color and font requirement*/
     color:rgb(201, 211, 211);
     font-family: "Sofia", sans-serif; 
 }
-/*#features { /*covers id selector */
+#features { /*covers id selector, position, and */
+    position: relative;
+}
 
+#testText { /*covers text color, decoration, and align*/
 
+    text-decoration: underline;
+    color: rgb(62, 173, 173);
+    text-align: left;
+    font-size: 30px;
+}
 
-/*#testText { /*covers text color, decoration, and align*/
+p:hover{
+    color: "blue";
+}
 
-
+.important2 {
+    
+}

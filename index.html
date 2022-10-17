@@ -8,8 +8,29 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <title>Valorant Tracker First Iteration</title>
     <style>
+        /* This will be our box model and intact */
         .important {
             background-color: #567895; /* This covers the hex color, background color, and class selector */
+
+            /* the following covers borders*/
+            border-style: groove;
+            border-color: rgb(42, 28, 239);
+            border-width: 2px; /* absolute size 2 */
+            border-radius: 0in; /* absolute size 3 */
+            position:static; /* second position*/
+
+            /* this will cover margins */
+            margin-top:auto;
+            margin-bottom:auto;
+            margin-left: auto;
+            margin-right: auto;
+
+            /* this will cover our padding*/
+            padding-top: auto;
+            padding-bottom: auto;
+            padding-left: auto;
+            padding-right: auto;
+
         }
     </style>
   </head>
@@ -33,18 +54,19 @@
 
         <br>
         <br>
-
-        <b> REMINDER: </b>
-        <p id="testText">Before we get started, I just want to thank everyone <br>
-            who was able to make the meeting. If you need to talk <br>
-            to anybody, here is a list of people that attended: <br>
-        </p>
-        <ul>
-            <li> Mrs. Reyna </li>
-            <li> Ms. Raze </li>
-            <li> Mr. Yoru </li>
-            <li> Omen </li>
-        </ul>
+        <div class="important2">
+            <b> REMINDER: </b>
+            <p id="testText">Before we get started, I just want to thank everyone <br>
+                who was able to make the meeting. If you need to talk <br>
+                to anybody, here is a list of people that attended: <br>
+            </p>
+            <ul>
+                <li> Mrs. Reyna </li>
+                <li> Ms. Raze </li>
+                <li> Mr. Yoru </li>
+                <li> Omen </li>
+            </ul>
+        </div>
 
         <div class="important" > 
             <h3> IMPORTANT INFORMATION: </h3>
